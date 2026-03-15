@@ -3,7 +3,7 @@ import { Palette, BarChart3 } from "lucide-react";
 
 const transition = {
   duration: 0.7,
-  ease: [0.23, 1, 0.32, 1],
+  ease: [0.23, 1, 0.32, 1] as [number, number, number, number],
 };
 
 const About = () => {
