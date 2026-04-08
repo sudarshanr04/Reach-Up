@@ -30,7 +30,7 @@ const Contact = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <Button variant="hero" size="xl" asChild>
-              <a href="mailto:reachupmedia@email.com" className="gap-2">
+              <a href="mailto:reachup.official@gmail.com" className="gap-2">
                 Get Free Audit <ArrowRight size={18} />
               </a>
             </Button>
@@ -43,13 +43,17 @@ const Contact = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-6 text-muted-foreground text-sm"
           >
-            <a href="mailto:reachupmedia@email.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="mailto:reachup.official@gmail.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Mail size={16} />
-              reachupmedia@email.com
+              reachup.official@gmail.com
             </a>
-            <a href="tel:+91XXXXXXXXXX" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="tel:+918839808695" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Phone size={16} />
-              +91 XXXXX XXXXX
+              +91 88398 08695
+            </a>
+            <a href="tel:+918815885977" className="flex items-center gap-2 hover:text-foreground transition-colors">
+              <Phone size={16} />
+              +91 88158 85977
             </a>
           </motion.div>
         </div>
