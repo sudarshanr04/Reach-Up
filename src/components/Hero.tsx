@@ -1,16 +1,36 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const ease = [0.23, 1, 0.32, 1] as [number, number, number, number];
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
+      {/* YouTube Autoplay Background */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-40" />
+        <div className="w-full h-full" style={{ position: 'relative', overflow: 'hidden' }}>
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/XbkX-EOn2aA?autoplay=1&mute=1&loop=1&playlist=XbkX-EOn2aA&controls=0&playsinline=1&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&disablekb=1"
+            title="Department of IT"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            style={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              width: '177.78vh',
+              height: '100vh',
+              minWidth: '100%',
+              minHeight: '100%',
+              transform: 'translate(-50%, -50%)',
+              pointerEvents: 'none',
+              opacity: 0.45,
+            }}
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
 
