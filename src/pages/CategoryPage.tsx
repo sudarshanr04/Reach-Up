@@ -23,6 +23,7 @@ const categoryData: Record<string, CategoryInfo> = {
   "professional-workspace": {
     title: "Professional workspace",
     description: "High-impact professional workspace videos that showcase creative excellence.",
+
     videos: [
       {
         id: 1,
