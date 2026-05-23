@@ -118,6 +118,27 @@ const categoryData: Record<string, CategoryInfo> = {
         embedSrc: "https://www.youtube.com/embed/S3v4YD8W9x8",
         isVertical: true,
       },
+      {
+        id: 10,
+        title: "PITCHERS | NIGHTLIFE SHOWCASE",
+        youtubeId: "7z7fwbNNSys",
+        embedSrc: "https://www.youtube.com/embed/7z7fwbNNSys",
+        isVertical: true,
+      },
+      {
+        id: 11,
+        title: "PITCHERS | AFTER THE DARK",
+        youtubeId: "CBzQ-2OMe5w",
+        embedSrc: "https://www.youtube.com/embed/CBzQ-2OMe5w",
+        isVertical: true,
+      },
+      {
+        id: 12,
+        title: "Traditional Ceremonial Shoot",
+        driveId: "1Xj0NPyGOW0Cud-eLmt7i6AAA7rYooiCh",
+        embedSrc: "https://drive.google.com/file/d/1Xj0NPyGOW0Cud-eLmt7i6AAA7rYooiCh/preview",
+        isVertical: true,
+      },
     ],
   },
   "motion-graphics": {
@@ -288,12 +309,12 @@ const CategoryPage = () => {
                   {/* Decorative gradient background */}
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${i % 4 === 0
-                        ? "from-creative/15 via-background to-data/5"
-                        : i % 4 === 1
-                          ? "from-data/15 via-background to-creative/5"
-                          : i % 4 === 2
-                            ? "from-creative/10 via-data/5 to-background"
-                            : "from-data/10 via-creative/5 to-background"
+                      ? "from-creative/15 via-background to-data/5"
+                      : i % 4 === 1
+                        ? "from-data/15 via-background to-creative/5"
+                        : i % 4 === 2
+                          ? "from-creative/10 via-data/5 to-background"
+                          : "from-data/10 via-creative/5 to-background"
                       }`}
                   />
                   <div className="relative h-full flex flex-col items-center justify-center p-6 text-center">
